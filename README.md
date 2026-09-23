@@ -1,6 +1,6 @@
 # Mishika Portfolio — Pretty Smart. ✦
 
-> CEO Barbie × Tech Founder Energy | AI/ML Engineer Portfolio
+> AI/ML Engineer Portfolio
 
 ---
 
@@ -140,6 +140,10 @@ Then:
 6. Deploy!
 
 After deploying backend, update `NEXT_PUBLIC_API_URL` in Vercel to your Render URL.
+
+## Live Demo
+
+🌐 https://mishika-portfolio-rho.vercel.app/
 
 ---
 
