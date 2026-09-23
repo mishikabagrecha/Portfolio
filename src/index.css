@@ -1,0 +1,58 @@
+/* ===== GLOBAL STYLES ===== */
+:root {
+  --rose: #c9748a;
+  --rose-light: #e8a0b4;
+  --blush: #f4d4db;
+  --cream: #fdf6f0;
+  --lavender: #d4c5e8;
+  --gold: #c9a96e;
+  --charcoal: #1a1014;
+  --muted: #8a7075;
+  --glass: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(201, 116, 138, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--cream);
+  color: var(--charcoal);
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+button, a {
+  cursor: none;
+}
+
+::selection {
+  background: var(--blush);
+  color: var(--rose);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rose-light);
+  border-radius: 2px;
+}
+
+/* Scrollbar for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rose-light) var(--cream);
+}
